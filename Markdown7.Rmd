@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: "Yuhong Chen"
+date: "2022-12-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(janitor)
+library(sf)
+library(tidyverse)
+#read the ward data in
+LondonWards <- st_read("/Users/korentin/GISPracticals/Practical6/Practical6/statistical-gis-boundaries-london/ESRI/London_Ward.shp")
+
+```
